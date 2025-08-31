@@ -55,5 +55,91 @@ namespace Mango.Services.CouponAPI.Controllers
             }
             return _responseDto;
         }
+
+        [HttpGet]
+        [Route("GetByCode/{code}")]
+        public ResponseDto Get(string code)
+        {
+            try
+            {
+
+                Coupon objectList = _db.Coupones.First(u => u.CouponCode.ToLower() == code.ToLower());
+                
+
+                _responseDto.Result = _mapper.Map<CouponDto>(objectList);
+            }
+            catch (Exception ex)
+            {
+                _responseDto.isSuuccess = false;
+                _responseDto.Message = ex.Message;
+            }
+            return _responseDto;
+        }
+
+
+        [HttpPost]
+        
+        public ResponseDto Create([FromBody] CouponDto couponDto)
+        {
+            try
+            {
+
+                Coupon createcoupon = _mapper.Map<Coupon>(couponDto);
+
+                _db.Coupones.Add(createcoupon);
+                _db.SaveChanges();
+
+                _responseDto.Result = _mapper.Map<CouponDto>(createcoupon);
+            }
+            catch (Exception ex)
+            {
+                _responseDto.isSuuccess = false;
+                _responseDto.Message = ex.Message;
+            }
+            return _responseDto;
+        }
+
+        [HttpPut]
+
+        public ResponseDto UpdateCoupon([FromBody] CouponDto couponDto)
+        {
+            try
+            {
+
+                Coupon createcoupon = _mapper.Map<Coupon>(couponDto);
+
+                _db.Coupones.Update(createcoupon);
+                _db.SaveChanges();
+
+                _responseDto.Result = _mapper.Map<CouponDto>(createcoupon);
+            }
+            catch (Exception ex)
+            {
+                _responseDto.isSuuccess = false;
+                _responseDto.Message = ex.Message;
+            }
+            return _responseDto;
+        }
+
+        [HttpDelete]
+
+        public ResponseDto DeleteCoupon(int Id)
+        {
+            try
+            {
+
+                Coupon deleteCoupons = _db.Coupones.First(u => u.CouponId == Id);
+
+                _db.Coupones.Remove(deleteCoupons);
+                _db.SaveChanges();
+
+            }
+            catch (Exception ex)
+            {
+                _responseDto.isSuuccess = false;
+                _responseDto.Message = ex.Message;
+            }
+            return _responseDto;
+        }
     }
 }
