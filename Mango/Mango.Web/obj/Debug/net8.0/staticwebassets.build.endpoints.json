@@ -3,7 +3,7 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
-      "Route": "Mango.Web.7ut735680f.styles.css",
+      "Route": "Mango.Web.bvxduskjtq.styles.css",
       "AssetFile": "Mango.Web.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -17,7 +17,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "1088"
         },
         {
           "Name": "Content-Type",
@@ -25,21 +25,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MfYftOpnss/Iokap6m05yUwZx6u0lyIAbF9HjZp22ks=\""
+          "Value": "\"t7rlolUQiFU2FHpm3Ax2MsEExdDdQ2Pv/zwMaOXhtio=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 01 Sep 2025 14:40:51 GMT"
+          "Value": "Mon, 01 Sep 2025 14:49:53 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7ut735680f"
+          "Value": "bvxduskjtq"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MfYftOpnss/Iokap6m05yUwZx6u0lyIAbF9HjZp22ks="
+          "Value": "sha256-t7rlolUQiFU2FHpm3Ax2MsEExdDdQ2Pv/zwMaOXhtio="
         },
         {
           "Name": "label",
@@ -62,7 +62,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "1088"
         },
         {
           "Name": "Content-Type",
@@ -70,17 +70,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MfYftOpnss/Iokap6m05yUwZx6u0lyIAbF9HjZp22ks=\""
+          "Value": "\"t7rlolUQiFU2FHpm3Ax2MsEExdDdQ2Pv/zwMaOXhtio=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 01 Sep 2025 14:40:51 GMT"
+          "Value": "Mon, 01 Sep 2025 14:49:53 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MfYftOpnss/Iokap6m05yUwZx6u0lyIAbF9HjZp22ks="
+          "Value": "sha256-t7rlolUQiFU2FHpm3Ax2MsEExdDdQ2Pv/zwMaOXhtio="
         }
       ]
     },
@@ -2395,7 +2395,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "204136"
+          "Value": "310960"
         },
         {
           "Name": "Content-Type",
@@ -2403,17 +2403,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
+          "Value": "\"5zQG+wls2LsWiMCeo+RPr6MVlEEBUhFD4n6upZap+78=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 01 Sep 2025 12:16:10 GMT"
+          "Value": "Mon, 01 Sep 2025 14:44:10 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
+          "Value": "sha256-5zQG+wls2LsWiMCeo+RPr6MVlEEBUhFD4n6upZap+78="
         }
       ]
     },
@@ -2664,7 +2664,7 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
+      "Route": "lib/bootstrap/dist/css/bootstrap.nw50v6kefq.css",
       "AssetFile": "lib/bootstrap/dist/css/bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2678,7 +2678,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "204136"
+          "Value": "310960"
         },
         {
           "Name": "Content-Type",
@@ -2686,21 +2686,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=\""
+          "Value": "\"5zQG+wls2LsWiMCeo+RPr6MVlEEBUhFD4n6upZap+78=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 01 Sep 2025 12:16:10 GMT"
+          "Value": "Mon, 01 Sep 2025 14:44:10 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mpyigms19s"
+          "Value": "nw50v6kefq"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM="
+          "Value": "sha256-5zQG+wls2LsWiMCeo+RPr6MVlEEBUhFD4n6upZap+78="
         },
         {
           "Name": "label",
