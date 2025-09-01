@@ -124,15 +124,18 @@
             }
           }
         }
-      },
-      "delete": {
+      }
+    },
+    "/api/coupon/{id}": {
+      "get": {
         "tags": [
           "CouponAPI"
         ],
         "parameters": [
           {
-            "name": "Id",
-            "in": "query",
+            "name": "id",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -161,16 +164,14 @@
             }
           }
         }
-      }
-    },
-    "/api/coupon/{id}": {
-      "get": {
+      },
+      "delete": {
         "tags": [
           "CouponAPI"
         ],
         "parameters": [
           {
-            "name": "id",
+            "name": "Id",
             "in": "path",
             "required": true,
             "schema": {
