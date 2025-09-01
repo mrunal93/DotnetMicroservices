@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "etA+v0OVtQg=",
+  "dgSpecHash": "cPwIY9s7QCw=",
   "success": true,
   "projectFilePath": "C:\\Users\\mrn26\\Documents\\.net Core\\Tutorial\\Coupen 1\\DotnetMicroservices\\Mango\\Mango.Web\\Mango.Web.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mrn26\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
