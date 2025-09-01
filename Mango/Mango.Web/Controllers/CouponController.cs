@@ -22,6 +22,9 @@ namespace Mango.Web.Controllers
             ResponseDto? response = await _couponService.GetAllCouponsasync();
             if (response != null && response.isSuuccess)
                 List = JsonConvert.DeserializeObject<List<CouponDto>>(Convert.ToString(response.Result));
+            else {
+                TempData["Error"] = response?.Message;
+            }
 
             return View(List);
         }
@@ -36,9 +39,17 @@ namespace Mango.Web.Controllers
             {
                 ResponseDto? response = await _couponService.CreateCouponasync(coupon);
                 if (response != null && response.isSuuccess)
-                   return RedirectToAction(nameof(CouponIndex));
+                {
+                    TempData["Success"] = "Coupon Create Successfully";
+                    return RedirectToAction(nameof(CouponIndex));
+                }
+                else
+                {
+                    TempData["Error"] = response?.Message;
+                }
 
             }
+          
             return View(coupon);
         }
        
@@ -47,8 +58,13 @@ namespace Mango.Web.Controllers
             ResponseDto? response = await _couponService.GetCouponBYIDasync( couponId);
             if (response != null && response.isSuuccess)
             {
+                TempData["Success"] = "Coupon Delete Successfully";
                 CouponDto? coupon = JsonConvert.DeserializeObject<CouponDto>(Convert.ToString(response.Result));
                 return View(coupon);
+            }
+            else
+            {
+                TempData["Error"] = response?.Message;
             }
             return NotFound();
         }
@@ -60,6 +76,10 @@ namespace Mango.Web.Controllers
             if (response != null && response.isSuuccess)
             {
                 return RedirectToAction(nameof(CouponIndex));
+            }
+            else
+            {
+                TempData["Error"] = response?.Message;
             }
             return NotFound();
         }
