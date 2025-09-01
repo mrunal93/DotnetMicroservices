@@ -41,6 +41,7 @@ namespace Mango.Web.Service
             {
                 ApiType = SD.ApiType.GET,
                 Url = SD.CouponAPIBase + "/api/coupon"
+              
             });
         }
 
