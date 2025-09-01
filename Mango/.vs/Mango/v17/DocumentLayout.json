@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\mrn26\\Documents\\.net Core\\Tutorial\\Coupen 1\\DotnetMicroservices\\Mango\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{49ADD73C-A0E9-46D5-930F-918CD4A8CC1D}|Mango.Web\\Mango.Web.csproj|c:\\users\\mrn26\\documents\\.net core\\tutorial\\coupen 1\\dotnetmicroservices\\mango\\mango.web\\models\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49ADD73C-A0E9-46D5-930F-918CD4A8CC1D}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\models\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49ADD73C-A0E9-46D5-930F-918CD4A8CC1D}|Mango.Web\\Mango.Web.csproj|c:\\users\\mrn26\\documents\\.net core\\tutorial\\coupen 1\\dotnetmicroservices\\mango\\mango.web\\mango.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{49ADD73C-A0E9-46D5-930F-918CD4A8CC1D}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\mango.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49ADD73C-A0E9-46D5-930F-918CD4A8CC1D}|Mango.Web\\Mango.Web.csproj|c:\\users\\mrn26\\documents\\.net core\\tutorial\\coupen 1\\dotnetmicroservices\\mango\\mango.web\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49ADD73C-A0E9-46D5-930F-918CD4A8CC1D}|Mango.Web\\Mango.Web.csproj|solutionrelative:mango.web\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{69EABDD3-2FC6-4C5E-B151-B7C774C58286}|Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj|c:\\users\\mrn26\\documents\\.net core\\tutorial\\coupen 1\\dotnetmicroservices\\mango\\mango.services.couponapi\\controllers\\couponapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69EABDD3-2FC6-4C5E-B151-B7C774C58286}|Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj|solutionrelative:mango.services.couponapi\\controllers\\couponapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +38,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "SD.cs",
+              "DocumentMoniker": "C:\\Users\\mrn26\\Documents\\.net Core\\Tutorial\\Coupen 1\\DotnetMicroservices\\Mango\\Mango.Web\\Utility\\SD.cs",
+              "RelativeDocumentMoniker": "Mango.Web\\Utility\\SD.cs",
+              "ToolTip": "C:\\Users\\mrn26\\Documents\\.net Core\\Tutorial\\Coupen 1\\DotnetMicroservices\\Mango\\Mango.Web\\Utility\\SD.cs",
+              "RelativeToolTip": "Mango.Web\\Utility\\SD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T12:46:28.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mango.Web",
+              "DocumentMoniker": "C:\\Users\\mrn26\\Documents\\.net Core\\Tutorial\\Coupen 1\\DotnetMicroservices\\Mango\\Mango.Web\\Mango.Web.csproj",
+              "RelativeDocumentMoniker": "Mango.Web\\Mango.Web.csproj",
+              "ToolTip": "C:\\Users\\mrn26\\Documents\\.net Core\\Tutorial\\Coupen 1\\DotnetMicroservices\\Mango\\Mango.Web\\Mango.Web.csproj",
+              "RelativeToolTip": "Mango.Web\\Mango.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-01T12:46:07.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\mrn26\\Documents\\.net Core\\Tutorial\\Coupen 1\\DotnetMicroservices\\Mango\\Mango.Web\\Models\\RequestDto.cs",
+              "RelativeDocumentMoniker": "Mango.Web\\Models\\RequestDto.cs",
+              "ToolTip": "C:\\Users\\mrn26\\Documents\\.net Core\\Tutorial\\Coupen 1\\DotnetMicroservices\\Mango\\Mango.Web\\Models\\RequestDto.cs",
+              "RelativeToolTip": "Mango.Web\\Models\\RequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T12:44:07.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Mango.Services.CouponAPI.csproj",
               "DocumentMoniker": "C:\\Users\\mrn26\\Documents\\.net Core\\Tutorial\\Coupen 1\\DotnetMicroservices\\Mango\\Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
               "RelativeDocumentMoniker": "Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
@@ -38,11 +89,12 @@
               "RelativeToolTip": "Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-31T21:29:43.839Z"
+              "WhenOpened": "2025-08-31T21:29:43.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mrn26\\Documents\\.net Core\\Tutorial\\Coupen 1\\DotnetMicroservices\\Mango\\Mango.Services.CouponAPI\\Program.cs",
               "RelativeDocumentMoniker": "Mango.Services.CouponAPI\\Program.cs",
@@ -54,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MappingConfig.cs",
               "DocumentMoniker": "C:\\Users\\mrn26\\Documents\\.net Core\\Tutorial\\Coupen 1\\DotnetMicroservices\\Mango\\Mango.Services.CouponAPI\\MappingConfig.cs",
               "RelativeDocumentMoniker": "Mango.Services.CouponAPI\\MappingConfig.cs",
@@ -66,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CouponAPIController.cs",
               "DocumentMoniker": "C:\\Users\\mrn26\\Documents\\.net Core\\Tutorial\\Coupen 1\\DotnetMicroservices\\Mango\\Mango.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
               "RelativeDocumentMoniker": "Mango.Services.CouponAPI\\Controllers\\CouponAPIController.cs",
